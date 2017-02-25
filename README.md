@@ -64,7 +64,7 @@ $ pio status
 Clone the current repository by executing the following command in the directory where you want the code to reside:
     
 ```
-git clone https://github.com/vshwnth2/pio_opennlp_rottentomatoes MySentiments
+git clone https://github.com/infoquestsolutions/OpenNLP-SentimentAnalysis-Template/ MySentiments
 ```
 ## Generate an App ID and Access Key
 Let's assume you want to use this engine in an application named "MyApp1". You will need to collect some training data for machine learning modeling. You can generate an App ID and Access Key that represent "MyApp1" on the Event Server easily:
