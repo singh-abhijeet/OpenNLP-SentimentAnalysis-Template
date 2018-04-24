@@ -1,5 +1,3 @@
-#OpenNLP Sentiment Analysis
-
 ## Overview
 An engine template is an almost-complete implementation of an engine. In this Engine Template, we have integrated OpenNLP library.
 We perform sentiment analysis based on a sentence provided.
@@ -23,7 +21,7 @@ By default, the template requires the following events to be collected (we can c
 ### Output Predicted Result
 - the predicted label 
 ```
-{"sentiment": 2.0}
+{"sentiment": "neutral"}
 ```
 
 ### Dataset 
@@ -64,7 +62,7 @@ $ pio status
 Clone the current repository by executing the following command in the directory where you want the code to reside:
     
 ```
-git clone https://github.com/infoquestsolutions/OpenNLP-SentimentAnalysis-Template/ MySentiments
+git clone https://github.com/singh-abhijeet/OpenNLP-SentimentAnalysis-Template.git OpenNLPSentimentAnalysis
 ```
 ## Generate an App ID and Access Key
 Let's assume you want to use this engine in an application named "MyApp1". You will need to collect some training data for machine learning modeling. You can generate an App ID and Access Key that represent "MyApp1" on the Event Server easily:
@@ -149,5 +147,13 @@ Now your engine is ready to deploy.
 $ pio deploy
 ```
 This will deploy an engine that binds to http://localhost:8000. You can visit that page in your web browser to check its status.
+
+###Prediction
+
+Run `query.sh` for a sample prediction.
+
+```
+curl -H "Content-Type: application/json" -d '{"sentence": "this is a good one"}' http://localhost:8000/queries.json
+```
 
 
