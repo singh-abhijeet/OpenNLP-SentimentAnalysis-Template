@@ -148,7 +148,7 @@ $ pio deploy
 ```
 This will deploy an engine that binds to http://localhost:8000. You can visit that page in your web browser to check its status.
 
-###Prediction
+### Prediction
 
 Run `query.sh` for a sample prediction.
 
