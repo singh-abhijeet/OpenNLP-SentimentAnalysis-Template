@@ -1,4 +1,6 @@
 ## Overview
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsingh-abhijeet%2FOpenNLP-SentimentAnalysis-Template.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsingh-abhijeet%2FOpenNLP-SentimentAnalysis-Template?ref=badge_shield)
+
 An engine template is an almost-complete implementation of an engine. In this Engine Template, we have integrated OpenNLP library.
 We perform sentiment analysis based on a sentence provided.
 
@@ -157,3 +159,7 @@ curl -H "Content-Type: application/json" -d '{"sentence": "this is a good one"}'
 ```
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsingh-abhijeet%2FOpenNLP-SentimentAnalysis-Template.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsingh-abhijeet%2FOpenNLP-SentimentAnalysis-Template?ref=badge_large)
